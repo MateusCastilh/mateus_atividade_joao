@@ -75,3 +75,38 @@ if (idade >= 18) {
 }
 
 /////////////////////////////////////////////
+
+let nota = 8.5;
+let resultado = (nota >= 7) ? "Aprovado" : "Reprovado";
+
+console.log("O valor é:", resultado); 
+
+/////////////////////////////////////////////
+
+let idade = 16;
+let status = (idade >= 18) ? "adulto" : "menor";
+
+console.log("O valor é:", status);
+
+/////////////////////////////////////////////
+
+let nome = "Mateus";
+let mensagemBoasVindas = `Olá, ${nome}!`;
+console.log("O valor é:", mensagemBoasVindas);
+
+/////////////////////////////////////////////
+
+let produto = "Teclado Gamer";
+let preco = 150;
+let quantidade = 2;
+let resumoCompra = `Você comprou ${quantidade} unidades de "${produto}" por R$ ${preco} cada.`;
+console.log("O valor é:", resumoCompra);
+
+/////////////////////////////////////////////
+
+let nome = "Mateus";
+let idade = 25;
+let mensagem = `Olá, ${nome}! Você tem ${idade} anos e é classificado como: ${(idade >= 18 ? "Adulto" : "Menor de idade")}.`;
+console.log("O valor é:", mensagem);
+
+/////////////////////////////////////////////
