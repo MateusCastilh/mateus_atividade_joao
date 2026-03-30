@@ -31,13 +31,13 @@ console.log("O seu valor não é igual a 10");
 }
 /////////////////////////////////////////////
 
-let nome1 = "João";
-let nome2 = "Maria";
-if (nome1 != nome2) {
-    console.log("O valor é: Os nomes são diferentes.");
-} else {
-    console.log("O valor é: Os nomes são iguais.");
-}
+//let nome1 = "João";
+//let nome2 = "Maria";
+//if (nome1 != nome2) {
+//    console.log("O valor é: Os nomes são diferentes.");
+//} else {
+//    console.log("O valor é: Os nomes são iguais.");
+//};
 
 /////////////////////////////////////////////
 
@@ -49,12 +49,12 @@ if (5 < 10) {
 
 /////////////////////////////////////////////
 
-let preco = 80;
-if (preco > 50) {
-    console.log("O valor é: O preço é maior que 50.");
-} else {
-    console.log("O valor é: O preço é 50 ou menos.");
-}
+//let preco = 80;
+//if (preco > 50) {
+//    console.log("O valor é: O preço é maior que 50.");
+//} else {
+//    console.log("O valor é: O preço é 50 ou menos.");
+//};
 
 /////////////////////////////////////////////
 
@@ -67,12 +67,12 @@ if (estoque <= 20) {
 
 /////////////////////////////////////////////
 
-let idade = 18;
-if (idade >= 18) {
-    console.log("O valor é: A pessoa é maior de idade.");
-} else {
-    console.log("O valor é: A pessoa é menor de idade.");
-}
+//let idade = 18;
+//if (idade >= 18) {
+//    console.log("O valor é: A pessoa é maior de idade.");
+//} else {
+//    console.log("O valor é: A pessoa é menor de idade.");
+//};
 
 /////////////////////////////////////////////
 
@@ -83,30 +83,30 @@ console.log("O valor é:", resultado);
 
 /////////////////////////////////////////////
 
-let idade = 16;
-let status = (idade >= 18) ? "adulto" : "menor";
+//let idade = 16;
+//let status = (idade >= 18) ? "adulto" : "menor";
 
-console.log("O valor é:", status);
+//console.log("O valor é:", status);
 
 /////////////////////////////////////////////
 
-let nome = "Mateus";
-let mensagemBoasVindas = `Olá, ${nome}!`;
+let nomedois = "Mateus";
+let mensagemBoasVindas = `Olá, ${nomedois}!`;
 console.log("O valor é:", mensagemBoasVindas);
 
 /////////////////////////////////////////////
 
 let produto = "Teclado Gamer";
-let preco = 150;
+let precodois = 150;
 let quantidade = 2;
-let resumoCompra = `Você comprou ${quantidade} unidades de "${produto}" por R$ ${preco} cada.`;
+let resumoCompra = `Você comprou ${quantidade} unidades de "${produto}" por R$ ${precodois} cada.`;
 console.log("O valor é:", resumoCompra);
 
 /////////////////////////////////////////////
 
-let nome = "Mateus";
+let nometres = "Mateus";
 let idade = 25;
-let mensagem = `Olá, ${nome}! Você tem ${idade} anos e é classificado como: ${(idade >= 18 ? "Adulto" : "Menor de idade")}.`;
+let mensagem = `Olá, ${nometres}! Você tem ${idade} anos e é classificado como: ${(idade >= 18 ? "Adulto" : "Menor de idade")}.`;
 console.log("O valor é:", mensagem);
 
 /////////////////////////////////////////////
